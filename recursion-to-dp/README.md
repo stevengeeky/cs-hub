@@ -2,7 +2,7 @@
 
 A lot of problems which exist in CS might first appear very complicated or unclear, yet it remains desirable to find a fast and efficient solution. For a subset of these problems, it is possible to make simple yet beneficial observations in order to develop a recursive solution.
 
-However, recursion is notorious for involving lots of redundant computation and also (without continuation passing style) requires enough stack space to support the depth of the problem tree. But in many cases, it is possible to simply loop through the problem tree in a way that requires no redundant computation, and no more than a single stack frame.
+However, recursion is notorious for involving lots of redundant computation and also (without continuation passing style) requires enough stack space to support the depth of the problem. But in many cases, it is possible to convert this type of solution into one which uses a single loop and a single stack frame.
 
 As an example, I'm going to use the fibonacci function. The fibonacci function takes in an index parameter and returns the number at that index within the fibonacci series. To remind you, here's what the fibonacci series looks like:
 
