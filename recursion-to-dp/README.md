@@ -93,7 +93,7 @@ After we have computed `fib(2)`, we will never use `fib(0)` again. From the abov
 
 Aka, we don't have to write down every single value. We only need to write down what the last two were in order to compute the next one.
 
-Here's the update version of our code, where we only keep track of what the last two computed values were in order to compute what the next one should be.
+Here's the updated version of our code, where we only keep track of what the last two computed values were in order to compute what the next one should be.
 
 ```python
 def fib(n):
