@@ -6,7 +6,7 @@ However, recursion is notorious for involving lots of redundant computation and 
 
 As an example, I'm going to use the fibonacci function. The fibonacci function takes in an index parameter and returns the number at that index within the fibonacci series. To remind you, here's what the fibonacci series looks like:
 
-`1, 1, 3, 5, 8, ...`
+`1, 1, 2, 3, 5, 8, ...`
 
 So we would define `fib(0) = 1`, `fib(1) = 1`, `fib(2) = 2`, and so on.
 
