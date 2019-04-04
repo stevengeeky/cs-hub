@@ -122,7 +122,7 @@ Although we can further simplify this code to use less variables, I believe that
 
 > The process of updating code that uses memoization to only remember old values which are necessary is called **linearization**.
 
-Although we applied the process of converting from recursion to linearization on a simple example, this technique can be applied to find optimal solutions for many seemingly complex real-world problems, many of which are asked in the form of job interview questions.
+Although we applied the process of converting from recursion to linearization on a simple example, this technique can be applied to find optimal solutions for a lot of seemingly complex real-world problems, many of which are asked in the form of job interview questions.
 
 For example:
 
