@@ -47,7 +47,7 @@ To compute `fib(4)`, we first compute `fib(3)` and `fib(2)`, and then add them t
 
 ![tree3_colorized](images/recursive/tree3_colorized.png)
 
-As you can imagine, this observation is the root of a *lot* of redundant computation. So much so that our current implementation of `fib` has a worst case runtime of **O(2<sup>n</sup>)**. That is, the number of nodes in the above tree is at most **2<sup>n</sup>** for `fib(n)`.
+As you can imagine, this observation is the root of a *lot* of redundant computation. So much so that our current implementation of `fib` has a worst case runtime of **O(2<sup>n</sup>)**. That is, the number of nodes in the above tree is at most a multiple of **2<sup>n</sup>** for `fib(n)`.
 
 What we instead want is that when we compute `fib(n)`, we already have `fib(n-1)` and `fib(n-2)` sitting in our hands, so that we can directly add them to produce `fib(n)`.
 
@@ -63,7 +63,7 @@ When we go to compute `fib(2)`, we already have what `fib(1)` and `fib(0)` compu
 
 When we go to compute `fib(3)`, we already have what `fib(2)` and `fib(1)` compute to, so we simply add what we have written down. Then, we write down the result of computing `fib(3)`, which is `3`.
 
-Now that we've removed the computational redundancy, our worst case runtime is **O(n)**, meaning that there will be at most **n** nodes in the above graph for `fib(n)`. Splendid!
+Now that we've removed the computational redundancy, our worst case runtime is **O(n)**, meaning that there will be at most a multiple of **n** nodes in the above graph for `fib(n)`. Splendid!
 
 > The process that we just went through is called **memoization**. That is, we are writing down a **memo** of each subresult throughout the computation, so that we can use it later.
 
