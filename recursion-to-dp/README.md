@@ -118,7 +118,7 @@ def fib(n):
   return fib_n
 ```
 
-Although we can further simplify this code to use less variables, I believe that this is the clearest way to write it.
+Although we can further simplify this code to use fewer variables, I believe that this is the clearest way to write it.
 
 > The process of updating code that uses memoization to only remember old values which are necessary is called **linearization**.
 
