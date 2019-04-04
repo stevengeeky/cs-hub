@@ -126,7 +126,7 @@ Although we applied the process of converting from recursion to linearization on
 
 For example:
 
-* Given a staircase, where at any given point in the staircase you can go up one or two steps, determine how many number of ways there are to reach the top.
+* Given a staircase, where at any given point in the staircase you can go up one or two steps, determine how many number of ways there are to reach the top from the first step.
 * Implement a version of regex that supports character matching, `.` (match any character), and `*` (match zero or more of the character which was previously seen)
 * Given a string of numbers, determine how many different possible ways in which the string could be decoded into an ip. For example, the string `25525511125` has `2` different possible decodings: `255.255.111.25` and `255.255.11.125`
 
